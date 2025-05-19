@@ -1,0 +1,90 @@
+body {
+  background-image: url(./image/1_loStqVykVYTM9fBPlr0WyQ.png);
+  background-size: 100% 100%;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 360px;
+}
+
+.Registration {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(135, 135, 135);
+}
+
+input[type="email"] {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  input[type="text"] {
+   width: 80%;
+   margin-bottom: 10px;
+   padding: 10px 5px;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+ }
+ input[type="password"] {
+   width: 80%;
+   margin-bottom: 10px;
+   padding: 10px;
+   border-radius: 4px;
+   border: 1px solid #ccc;
+ }
+  .select{
+    width: 86% !important;
+    height: 30px;
+  }
+  .custom-chekbox{
+    margin-top: 20px;
+  }
+  .custom-chekbox{
+    margin-bottom: 15px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(235, 212, 8);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .name1{
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .name2{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .name3{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-left: 30px;
+  }
+  .icon{
+   margin-top: 8px;
+  }
+  .inputdiv1{
+    width: 150px;
+  }
+  .inputdiv2{
+    width: 125px;
+    
+  }
